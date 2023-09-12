@@ -15,7 +15,7 @@ export async function getProfile() {
       "resumeURL": resumeURL.asset->url,
       socialLinks,
       skills
-    }`
+    }`,
   );
 }
 
@@ -30,7 +30,7 @@ export async function getJob() {
       description,
       startDate,
       endDate,
-    }`
+    }`,
   );
 }
 
@@ -42,7 +42,7 @@ export async function getProjects() {
       "slug": slug.current,
       tagline,
       "logo": logo.asset->url,
-    }`
+    }`,
   );
 }
 
@@ -56,6 +56,6 @@ export async function getSingleProject(slug: string) {
       tagline,
       description
     }`,
-    { slug }
+    { slug },
   );
 }

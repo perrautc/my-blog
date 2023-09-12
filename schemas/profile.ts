@@ -107,7 +107,7 @@ const profile = {
       description: "Add a list of skills",
       of: [{ type: "string" }],
     },
- ],
+  ],
 };
 
 export default profile;
