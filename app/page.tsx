@@ -1,4 +1,4 @@
-import { getProfile } from "@/sanity/sanity.query";
+import { getProfile } from "@/lib/sanity.query";
 import type { ProfileType } from "@/types";
 import HeroSvg from "./icons/HeroSvg";
 import Job from "./components/Job";
